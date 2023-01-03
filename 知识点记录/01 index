@@ -1,0 +1,11 @@
+1  寻找网页的图标   
+    通过首页查看网页内容，一般是找不到的
+    在首页地址后加上   favicon.ico
+
+
+
+2 实现头部
+search  部分，做了两个1190*60，是为了后续网页滑动后有吸顶效果
+定位的使用：父级子级的关系
+placeholder:悬浮的字
+transition: background .2s ease;背景过渡

@@ -1,0 +1,3 @@
+banner  部分高度为480，但是内部轮播图距离banner边框为10Px;所以写的时候，height为470  padding-top分配10px
+
+href中链接加上JavaScript  就不会发生跳转
