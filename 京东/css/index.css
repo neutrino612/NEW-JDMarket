@@ -32,8 +32,10 @@
 }
 .search-m{
     position: relative;
-    width: 100%;
+    width: 1190px;
+    margin:0 auto;
     height: 100%;
+
 }
 .search_logo{
     display: none;
@@ -42,6 +44,8 @@
     top: 4px;
     width:125px;
     height: 40px;
+    background: url(./../images/sprite.png) no-repeat;
+    background-position: 0 -120px;
 }
 .form{
     position: absolute;
@@ -252,6 +256,26 @@ body{
     }
     100%{
         top: 75px;
+    }
+}
+.search-fix{
+position: fixed;
+/* 层级 */
+z-index: 100;
+left: 0;
+top: 0;
+width: 100%;
+border-bottom: 2px solid #f10214;
+background-color: #fff;
+box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+animation: searchTop .5s ease-in-out;
+}
+@keyframes searchTop{
+    0%{
+        top:-50px;
+    }
+    100%{
+        top: 0;
     }
 }
 /* 主体结束 */

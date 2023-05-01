@@ -1,0 +1,6 @@
+ 设置一个ul  两组 ul
+ 每个里面有四个li
+
+ css中设置一个ul的left   
+
+ left  溢出  且隐藏   当4个li全部溢出 快速left为0
