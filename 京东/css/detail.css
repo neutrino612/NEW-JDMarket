@@ -1,0 +1,17 @@
+.wrap{
+    width: 1210px;
+    margin: 0 auto;
+
+}
+.product-intro clearfix{
+    width: 1210px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.preview-wrap{
+    width: 352px;
+    height: 500px;
+    background-color: palegoldenrod;
+    padding-bottom: 15px;
+}
